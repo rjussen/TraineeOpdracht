@@ -10,7 +10,7 @@ function Dev(props) {
     const imageURL = require(`${props.logo}`);
     let isFeatured;
     let isNew;
-    props.featured ? isFeatured=<Chip color="Secondary" size="small" label="Featured!"/> : isFeatured=null;
+    props.featured ? isFeatured=<Chip color="secondary" size="small" label="Featured!"/> : isFeatured=null;
     props.new ? isNew=<Chip color="primary" size="small" label="New!"/> : isNew=null;
 
     return(

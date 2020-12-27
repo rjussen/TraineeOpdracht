@@ -21,7 +21,6 @@ constructor(props) {
 
 
   render() {
-    console.log(this.state.query)
     const filteredDevs = this.state.devs.filter(({ languages, tools }) => {
 
       const normalizedLanguages = languages.map(language => language.toLowerCase());
@@ -35,7 +34,7 @@ constructor(props) {
     })
 
     return(
-      <div classname= 'App'>
+      <div className= 'App'>
         <SearchBar
           handleInput={this.handleInput}
         />
