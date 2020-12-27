@@ -1,0 +1,48 @@
+
+.list {
+   padding: 20px;
+
+}
+
+.paperl { 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    background: whitesmoke;
+    display: block;
+}
+
+.gridmain{
+   padding: 20px;
+
+}
+.gridr{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.featured{
+   display: flex;
+   justify-content: right;
+   align-items:center
+}
+@media only screen and (max-width: 700px) {
+   .paperl { 
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      background: whitesmoke;
+      display: block;
+  }
+  .gridmain{
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   }
+ }
